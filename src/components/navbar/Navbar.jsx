@@ -7,4 +7,4 @@ const Navbar = () => {
   );
 }
 
-default export Navbar;
+export default Navbar;

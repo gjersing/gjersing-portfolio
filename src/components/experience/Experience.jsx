@@ -7,4 +7,4 @@ const Experience = () => {
   );
 }
 
-default export Experience;
+export default Experience;
