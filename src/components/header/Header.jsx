@@ -8,7 +8,6 @@ const Header = () => {
   return(
     <header>
       <div className="container header__container">
-        <h5>Hello! I am</h5>
         <h1>
         <img src={MeTransparent} alt="me" className='me' align='left'/>
         Christopher Gjersing

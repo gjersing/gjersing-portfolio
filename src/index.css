@@ -18,8 +18,8 @@
 
   --transition: all 400ms ease;
 
-  --color-bg: #1D2323;
-  --color-primary: #383F3F;
+  --color-bg: #1a1917;
+  --color-primary: #484954;
   --color-trim: #23242e;
   --color-black: #010203;
   --color-trim-lighter: #898a96;
@@ -50,8 +50,7 @@ h1 {
 }
 
 section {
-  margin-top: 5rem;
-  height: 100vh;
+  padding-top: 8rem;
 }
 
 section > h2, section > h5 {
@@ -64,7 +63,11 @@ section > h2 {
 }
 
 .text-bright {
-  color: var(--color-bright);
+  color: var(--color-bright-lighter);
+}
+
+.text-light {
+  color: var(--color-trim-lighter);
 }
 
 a {
