@@ -56,11 +56,10 @@ section {
 
 section > h2, section > h5 {
   text-align: center;
-  color: var(--color-bright);
+  color: var(--color-white);
 }
 
 section > h2 {
-  color: var(--color-trim);
   margin-bottom: 3rem;
 }
 
