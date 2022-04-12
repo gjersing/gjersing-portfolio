@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 40vh;
   padding-top: 6rem;
   overflow: hidden;
 }
@@ -16,7 +16,7 @@ header h1 {
   width: 50%;
   display: inline-block;
   height: 4rem;
-  padding-right: 2rem;
+  padding-right: 11rem;
 }
 
 .cta {
@@ -33,35 +33,32 @@ header h1 {
   position: absolute;
   gap: 0.8rem;
   left: 0;
-  top: 1rem;
+  top: 8rem;
 }
 
-.header__socials::before, .header__socials::after {
+.header__socials::after {
   content: '';
   width: 1px;
   height: 1.5rem;
-  background: var(--color-trim-lighter);
+  background: var(--color-bright-lighter);
 }
 
-.portrait {
-  background: rgb(31,40,30);
-  background: linear-gradient(0deg, rgba(31,40,30,1) 7%, rgba(72,93,70,1) 35%, rgba(108,175,103,1) 82%);
-  border: 2px solid var(--color-bright);
-  position: relative;
+.scroll_down {
+  position: absolute;
+  right: -1.6rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 .me {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 7%, rgba(56,63,63,1) 35%, rgba(145,145,145,1) 82%);
+  border: 2px solid var(--color-bg);
+  position: relative;
   width: 8rem;
   height: 11rem;
-  border-radius: 4rem 4rem 0;
+  border-radius: 4rem 4rem 0 4rem;
   margin-right: 3rem;
-  top: -1.6rem;
-}
-
-.clover {
-  width: 6rem;
-  height: 8rem;
-  border-radius: 3rem 3rem 3rem 0;
-  margin-left: 3rem;
-  top: -0.7rem;
+  top: -1rem;
 }
