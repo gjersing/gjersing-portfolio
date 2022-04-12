@@ -19,6 +19,7 @@ header h1 {
 
 .cta {
   margin-top: 1rem;
+  margin: 1rem 0;
   display: flex;
   gap: 1.2rem;
   justify-content: center;

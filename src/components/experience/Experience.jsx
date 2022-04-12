@@ -5,7 +5,7 @@ import {AiOutlineCheckCircle} from 'react-icons/ai'
 const Experience = () => {
   return(
     <section id='experience'>
-    <h2>My Experience</h2>
+    <h2>Experience</h2>
 
       <div className='container experience__container'>
         <div className='experience__frontend'>
@@ -62,6 +62,13 @@ const Experience = () => {
               <AiOutlineCheckCircle className='text-bright experience__details-icon'/>
               <div>
                 <h4>Node JS</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <AiOutlineCheckCircle className='text-bright experience__details-icon'/>
+              <div>
+                <h4>Express</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
