@@ -1,0 +1,67 @@
+header {
+  height: 100vh;
+  padding-top: 6rem;
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+header h1 {
+  width: max-content !important;
+  margin: auto;
+  width: 50%;
+  display: inline-block;
+  height: 4rem;
+  padding-right: 2rem;
+}
+
+.cta {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  gap: 0.8rem;
+  left: 0;
+  top: 1rem;
+}
+
+.header__socials::before, .header__socials::after {
+  content: '';
+  width: 1px;
+  height: 1.5rem;
+  background: var(--color-trim-lighter);
+}
+
+.portrait {
+  background: rgb(31,40,30);
+  background: linear-gradient(0deg, rgba(31,40,30,1) 7%, rgba(72,93,70,1) 35%, rgba(108,175,103,1) 82%);
+  border: 2px solid var(--color-bright);
+  position: relative;
+}
+
+.me {
+  width: 8rem;
+  height: 11rem;
+  border-radius: 4rem 4rem 0;
+  margin-right: 3rem;
+  top: -1.6rem;
+}
+
+.clover {
+  width: 6rem;
+  height: 8rem;
+  border-radius: 3rem 3rem 3rem 0;
+  margin-left: 3rem;
+  top: -0.7rem;
+}
