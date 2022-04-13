@@ -1,0 +1,38 @@
+.container.contact__container {
+  width: 40%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 5rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-trim-lighter);
+  color: var(--color-white);
+  resize: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .container.contact__container {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: 90%;
+  }
+}
