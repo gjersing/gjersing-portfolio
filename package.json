@@ -1,5 +1,6 @@
 {
   "name": "gjersing-portfolio",
+  "homepage": "https://csgjersing.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
