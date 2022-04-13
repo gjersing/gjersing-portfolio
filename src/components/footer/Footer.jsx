@@ -10,9 +10,9 @@ const Footer = () => {
       <a href="#" className='footer__logo'>GJERSING</a>
 
       <div className='footer__socials'>
-        <a href='https://www.linkedin.com/in/gjersing/' target="_blank"><BsLinkedin /></a>
-        <a href='https://github.com/gjersing' target="_blank"><FaGithub /></a>
-        <a href='https://twitter.com/csgjersing' target="_blank"><FaTwitter /></a>
+        <a href='https://www.linkedin.com/in/gjersing/' target="_blank" rel="noreferrer"><BsLinkedin /></a>
+        <a href='https://github.com/gjersing' target="_blank" rel="noreferrer"><FaGithub /></a>
+        <a href='https://twitter.com/csgjersing' target="_blank" rel="noreferrer"><FaTwitter /></a>
       </div>
 
       <div className='footer__copyright'>
