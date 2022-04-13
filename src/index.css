@@ -164,3 +164,13 @@ body {
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .header__socials {
+    display: none;
+  }
+
+  .scroll_down {
+    display: none;
+  }
+}
